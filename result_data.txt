@@ -1,0 +1,28 @@
+VOCO dataset
+
+kernel   DeepOneClassClassification 		 SVMBoosting         
+poly     0.26              				 0.26     
+rbf      0.05              				 0.37     
+linear   0.27              				 0.41     
+sigmoid  0.07              				 0.37     
+
+
+OneClassTree                             0.13
+OneClassSlabSVM                          0.05
+
+
+________________________________________________________________________
+
+
+letter recognization dataset
+
+kernel   DeepOneClassClassification 		SVMBoosting     	Ktimes Sampling	Generalization ability of SVM
+poly     0.09              				 0.80     	0.22			0.33
+rbf      0.84              				 0.73     	0.22			0.21
+linear   0.07              				 0.76     	0.28			0.36
+sigmoid  0.04              				 0.04     	0.04			0.04
+
+
+OneClassTree                             0.62
+OneClassSlabSVM                          0.48
+SVDD					   0.40
